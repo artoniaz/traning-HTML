@@ -1,0 +1,30 @@
+p{
+    display: none;
+}
+
+@media all and (max-width: 641px) {
+    body{
+        background-color: greenyellow;
+    }
+    p:nth-child(3){
+        display: block;
+    }
+}
+
+@media all and (min-width: 642px) and (max-width: 1600px) {
+    body{
+        background-color: darkred;
+    }
+    p:nth-child(2){
+        display: block;
+    }
+}
+
+@media all and (min-width: 1601px){
+    body{
+        background-color: orangered;
+    }
+    p:nth-child(1){
+        display: block;
+    }
+}
