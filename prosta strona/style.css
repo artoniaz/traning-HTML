@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 10px;
+}
+
+.mainCointainer {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.container > nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 4vw;
+    min-height: 13vh;
+}
+
+.container > nav > a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 2vh 1vw;
+    margin: 2vh 1.5vw;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.container > nav > a:nth-child(3) {
+    margin-right: 4vw;
+}
+
+.container > nav > a:nth-child(4) {
+    border: 2px solid black;
+}
+
+.container > nav > a:hover{
+    border-bottom: 4px solid black;
+    transition: 0.2s;
+}
+
+.container > nav >a:nth-child(4):hover{
+    border: 2px solid royalblue;
+    background-color: royalblue;
+    color: white;
+}
+
+.backImage{
+    background-image: url("./images/car-repair-362150_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    position: relative;
+}
+
+.backImage:before{
+    content: "";
+    background-color: #bada55;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.backImage > p{
+    font-size: 6em;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    color: #dddddd;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 60vh;
+    background-color: rgba(0,0,0,40%);
+}
+
+.text{
+    font-size: 1rem;
+    text-indent: 2vw;
+    text-align: justify;
+    font-weight: 700;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.text:first-letter{
+    color: #bada55;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+
+.image{
+    width: 30%;
+    height: 30vh;
+    background-color: royalblue;
+}
+
+.image:hover{
+    opacity: 0.95;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.titles > p{
+    width: 30%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer{
+    background-color: black;
+    min-height: 2vh;
+    color: white;
+    text-align: right;
+    font-size: 1rem;
+    padding: 2vh;
+}

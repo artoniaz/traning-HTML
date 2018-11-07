@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chess{
+    position: relative;
+    margin: 50px 0 0 50px;
+    border: 50px solid black;
+    width: 300px;
+    height: 500px;
+}
+
+.red{
+    position: absolute;
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.first{
+    top: 0;
+    left: 0;
+}
+
+.second{
+    bottom: 0;
+    right: 0;
+}
+
+.board{
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.space{
+    width: 20%;
+    height: 20%;
+    float: left;
+    border: 1px solid black;
+
+}

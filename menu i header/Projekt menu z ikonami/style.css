@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    padding-left: 5%;
+    margin: 0 auto;
+    background-color: #343A40;
+    width: 100%;
+}
+
+ul{
+    max-width: 1240px;
+
+}
+
+li{
+    float: left;
+    display: inline-block;
+
+}
+
+a{
+    color: #bbb;
+    text-decoration: none;
+}

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #dddddd;
+    width: 100%;
+    text-align: left;
+    min-height: 9vh;
+}
+
+a {
+    display: inline-block;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #dddddd;
+    text-decoration: none;
+    color: red;
+    padding: 1vh 2vw;
+    margin: 2vh 1vw;
+}
+
+a:hover {
+    border-bottom: 4px solid red;
+    transition: 0.1s;
+}
+
+a.rightBtn {
+    margin-left: 10vw;
+    /*border-bottom: none;*/
+    border: 4px solid red;
+}
+
+a.rightBtn:hover {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+.back{
+    background-color: #dddddd;
+
+}
+header{
+    background-color: #dddddd;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid red;
+    color: red;
+    padding: 0.5vw 2vw;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 1vh 1vw;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+    transition: 0.4s;
+}
+
+section {
+    min-height: 40vh;
+    width: 100%;
+}
+
+section:nth-child(2){
+    background-color: #222222;
+}
+section:nth-child(3){
+    background-color: #bada55;
+}
+
+footer{
+    width: 100%;
+    min-height: 6vh;
+    background-color: royalblue;
+}
+

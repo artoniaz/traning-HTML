@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pattaya', arial, sans-serif;
+    font-size: 10px;
+
+}
+
+.mainCointainer {
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh 0;
+}
+
+.square {
+    width: 15vw;
+    height: 15vw;
+}
+
+.square:hover {
+    opacity: 0.6;
+}
+
+.square:nth-child(1) {
+    background-color: #bada55;
+}
+
+.square:nth-child(2) {
+    background-color: royalblue;
+}
+
+.square:nth-child(3) {
+    background-color: orange;
+}
+
+.square:nth-child(4) {
+    background-color: red;
+}
+
+header, footer {
+    background-color: #444444;
+}
+
+header {
+    margin-bottom: 5vh;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header ul li {
+    list-style: none;
+    margin: 2vh;
+    text-align: center;
+
+}
+
+header ul li a {
+    display: inline-block;
+    min-width: 15vw;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    background-color: black;
+    padding: 0.5vh 3vw;
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover {
+    background-color: #444444;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    word-spacing: 1rem;
+    margin-bottom: 2vh;
+}
+
+.image {
+    background-image: url("./images/car-repair-362150_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    width: 20vw;
+    float: left;
+    margin-bottom: 5vh;
+}
+
+.articles p {
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 5vh;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact {
+    width: 70%;
+}
+
+.first{
+    max-height: 22vh;
+    background-color: #444444;
+
+
+}
+
+.contact  p {
+    font-size: 1.5rem;
+    padding: 1vw;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 2vw;
+    color: black;
+
+}
+
+li i{
+    margin-left: 2vw;
+    font-size: 1rem;
+}
