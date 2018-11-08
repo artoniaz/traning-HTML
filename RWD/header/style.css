@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Lato', arial, sans-serif;
+}
+
+header {
+    background-image: url("./images/manhattan-336708_1920.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1600px;
+}
+
+.logo {
+    background-color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.6rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.logo div {
+    background-color: black;
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    padding: 5px 40px;
+}
+
+.logo div span {
+    color: royalblue;
+}
+
+.logo p {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    letter-spacing: 0.9rem;
+}
+
+.title div {
+    background-color: white;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+}
+
+.title p {
+    padding: 10px 0;
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header button {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0
+}
+
+section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+section p {
+    font-size: 1.5rem;
+    text-indent: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 1024px) {
+    header button {
+        bottom: 15%;
+        right: 15%;
+        padding: 20px 40px;
+        font-size: 5rem;
+        border: 1rem solid white;
+    }
+    section p {
+        font-size: 3rem;
+        text-indent: 4rem;
+        text-align: justify;
+        margin-top: 20px;
+        padding: 0 4rem;
+        line-height: 1.5;
+    }
+}
+
+@media all and (max-width: 1400px) and (orientation: landscape) {
+    header button {
+        bottom: 15%;
+        right: 15%;
+        padding: 20px 40px;
+        font-size: 5rem;
+        border: 1rem solid white;
+    }
+    section p {
+        font-size: 3rem;
+        text-indent: 4rem;
+        text-align: justify;
+        margin-top: 20px;
+        padding: 0 4rem;
+        line-height: 1.5;
+    }
+    .title p {
+        padding: 2rem 0;
+        font-size: 7rem;
+    }
+}
+
+@media all and (max-width: 414px){
+    .title p {
+        padding: 1rem 0;
+        font-size: 4rem;
+    }
+    header button {
+        bottom: 10%;
+        right: 5%;
+        padding: 1rem 2rem;
+        font-size: 3rem;
+        border: .5rem solid white;
+    }
+    section p {
+        font-size: 2rem;
+        text-indent: 2rem;
+        margin-top: 2rem;
+        padding: 0 2rem;
+        line-height: 1.5;
+    }
+    .logo div {
+        font-size: 2rem;
+        padding: 0.5rem 2rem;
+    }
+    .logo p {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 5px;
+        letter-spacing: 0.5rem;
+    }
+}
+
+@media all and (max-width: 800px){
+    .title p {
+        padding: 1rem 0;
+        font-size: 3rem;
+    }
+    header button {
+        bottom: 10%;
+        right: 5%;
+        padding: 1rem 2rem;
+        font-size: 3rem;
+        border: .5rem solid white;
+    }
+    section p {
+        font-size: 2rem;
+        text-indent: 2rem;
+        margin-top: 2rem;
+        padding: 0 2rem;
+        line-height: 1.5;
+    }
+    .logo div {
+        font-size: 2rem;
+        padding: 0.5rem 2rem;
+    }
+    .logo p {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 5px;
+        letter-spacing: 0.5rem;
+    }
+}

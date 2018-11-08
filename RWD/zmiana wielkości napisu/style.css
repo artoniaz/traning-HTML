@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    line-height: 100vh;
+    text-transform: uppercase;
+    font-family: arial;
+    padding: 0 5%;
+}
+
+@media all and (max-width: 359px) {
+
+    p {
+
+        font-size: 20px;
+    }
+
+}
+
+@media all and (min-width: 360px) {
+    p {
+        font-size: 24px;
+    }
+}
+@media all and (min-width: 600px){
+    p{
+        font-size: 40px;
+        color: darkred;
+    }
+}
+@media all and (min-width: 1024px){
+    p{
+        font-size: 60px;
+        color: #bada55;
+    }
+}
